@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-03T15:33:52.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="X9mS1ZI2FTa0rKFMPHFc" version="14.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-03T15:42:17.515Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="q9yP9f9t7r14Bp02lyNd" version="14.7.4" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1038" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -614,35 +614,10 @@
           <mxGeometry x="1828" y="2770" width="372.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EFA0adyvLXKgIAI4bsh8-275" value="Listners" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="3270" width="811.25" height="60" as="geometry" />
+          <mxGeometry x="1376.25" y="3230" width="811.25" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EFA0adyvLXKgIAI4bsh8-276" value="«interface»&lt;br&gt;&lt;b&gt;EmailEvents&lt;/b&gt;" style="html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1368.75" y="3360" width="425" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="EFA0adyvLXKgIAI4bsh8-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;startArrow=classic;startFill=1;endArrow=none;endFill=0;strokeWidth=4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFA0adyvLXKgIAI4bsh8-276" target="EFA0adyvLXKgIAI4bsh8-279">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1581.25" y="3510" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EFA0adyvLXKgIAI4bsh8-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="1" source="EFA0adyvLXKgIAI4bsh8-279" target="EFA0adyvLXKgIAI4bsh8-282">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1581" y="3490" />
-              <mxPoint x="1994" y="3490" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EFA0adyvLXKgIAI4bsh8-279" value="OnForgotPasswordEvent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1386.25" y="3510" width="390" height="128" as="geometry" />
-        </mxCell>
-        <mxCell id="EFA0adyvLXKgIAI4bsh8-280" value="- userName: String&#xa;- appUrl : String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EFA0adyvLXKgIAI4bsh8-279">
-          <mxGeometry y="40" width="390" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="EFA0adyvLXKgIAI4bsh8-281" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="EFA0adyvLXKgIAI4bsh8-279">
-          <mxGeometry y="120" width="390" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="EFA0adyvLXKgIAI4bsh8-282" value="&lt;b&gt;ApplicationEvent&lt;/b&gt;" style="html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1807.5" y="3360" width="372.5" height="50" as="geometry" />
+        <mxCell id="EFA0adyvLXKgIAI4bsh8-276" value="«interface»&lt;br&gt;&lt;b&gt;ApplicationListener&amp;lt;Object.class&amp;gt;&lt;/b&gt;" style="html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="3370" width="445" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EFA0adyvLXKgIAI4bsh8-294" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="1" source="EFA0adyvLXKgIAI4bsh8-283" target="EFA0adyvLXKgIAI4bsh8-291">
           <mxGeometry relative="1" as="geometry">
@@ -673,6 +648,41 @@
         </mxCell>
         <mxCell id="EFA0adyvLXKgIAI4bsh8-297" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="1" source="EFA0adyvLXKgIAI4bsh8-292" target="EFA0adyvLXKgIAI4bsh8-265">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFA0adyvLXKgIAI4bsh8-319" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" edge="1" parent="1" source="EFA0adyvLXKgIAI4bsh8-311" target="EFA0adyvLXKgIAI4bsh8-276">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFA0adyvLXKgIAI4bsh8-311" value="RegistrationListener" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="3630" width="160" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="EFA0adyvLXKgIAI4bsh8-312" value="- userService: IUserService&#xa;- mailService: IMailService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EFA0adyvLXKgIAI4bsh8-311">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="EFA0adyvLXKgIAI4bsh8-313" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="EFA0adyvLXKgIAI4bsh8-311">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EFA0adyvLXKgIAI4bsh8-314" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EFA0adyvLXKgIAI4bsh8-311">
+          <mxGeometry y="88" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EFA0adyvLXKgIAI4bsh8-320" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="1" source="EFA0adyvLXKgIAI4bsh8-315" target="EFA0adyvLXKgIAI4bsh8-276">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1874" y="3524" />
+              <mxPoint x="1473" y="3524" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFA0adyvLXKgIAI4bsh8-315" value="ForgotPasswordListener" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1793.75" y="3640" width="160" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="EFA0adyvLXKgIAI4bsh8-316" value="- userService: IUserService&#xa;- mailService: IMailService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EFA0adyvLXKgIAI4bsh8-315">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="EFA0adyvLXKgIAI4bsh8-317" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="EFA0adyvLXKgIAI4bsh8-315">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EFA0adyvLXKgIAI4bsh8-318" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EFA0adyvLXKgIAI4bsh8-315">
+          <mxGeometry y="88" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
